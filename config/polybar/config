@@ -134,7 +134,7 @@ format-muted-padding = 1
 
 label-volume = %percentage%
 
-label-muted = muted
+label-muted =  muted
 label-muted-foreground = ${colors.base0}
 
 ramp-volume-0 = 
