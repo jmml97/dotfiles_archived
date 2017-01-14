@@ -5,3 +5,5 @@ environment. Note that the install script is idempotent: it can safely be run
 multiple times.
 
 Dotfiles uses [Dotbot][dotbot] for installation.
+
+[dotbot]: https://git.io/dotbot
