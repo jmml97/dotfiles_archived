@@ -1,0 +1,73 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 670,
+       "width": 1148,
+       "x": 0,
+       "y": 0
+    },
+    "name": "jmml@MacBook-Arch:~",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       // "class": "^Gnome\\-terminal$",
+       // "instance": "^gnome\\-terminal\\-server$",
+       // "title": "^jmml\\@MacBook\\-Arch\\:\\~$",
+       // "transient_for": "^$",
+       // "window_role": "^gnome\\-terminal\\-window\\-557f1e46\\-8120\\-4b5d\\-acac\\-3e1180853c29$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "none",
+    "current_border_width": 4,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1490,
+       "width": 1804,
+       "x": 0,
+       "y": 0
+    },
+    "name": "config (/home/jmml/.i3) - gedit",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       // "class": "^Gedit$",
+       // "instance": "^gedit$",
+       // "title": "^config\\ \\(\\/home\\/jmml\\/\\.i3\\)\\ \\-\\ gedit$",
+       // "transient_for": "^$",
+       // "window_role": "^gedit\\-window\\-1483182156\\-76507\\-0\\-MacBook\\-Arch$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 4,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 670,
+       "width": 1148,
+       "x": 0,
+       "y": 0
+    },
+    "name": "jmml@MacBook-Arch:~",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       // "class": "^Gnome\\-terminal$",
+       // "instance": "^gnome\\-terminal\\-server$",
+       // "title": "^jmml\\@MacBook\\-Arch\\:\\~$",
+       // "transient_for": "^$",
+       // "window_role": "^gnome\\-terminal\\-window\\-d1e98584\\-d0ca\\-43af\\-b5f1\\-917abc37d040$"
+       }
+    ],
+    "type": "con"
+}
+
