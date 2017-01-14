@@ -46,5 +46,10 @@
         create: true
         relink: false
         force: false
+    ~/.config/powerline:
+        path: config/powerline/
+        create: true
+        relink: false
+        force: false
 
 
