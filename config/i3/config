@@ -162,3 +162,7 @@ exec --no-startup-id restart
 bindsym --release $mod+p exec exec scrot -s $HOME/screenshot_`date +%Y-%m-%d_%H:%M:%S`.png
 bindsym $mod+Shift+p exec exec scrot -u $HOME/screenshot_`date +%Y-%m-%d_%H:%M:%S`.png
 bindsym $mod+Return exec gnome-terminal
+
+# Start Redshift
+
+exec --no-startup-id redshift-gtk

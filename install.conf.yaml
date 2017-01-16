@@ -51,5 +51,10 @@
         create: true
         relink: false
         force: false
+    ~/.config/redshift.conf:
+        path: config/redshift.conf
+        create: true
+        relink: false
+        force: false
 
 
