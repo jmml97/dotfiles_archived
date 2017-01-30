@@ -56,5 +56,10 @@
         create: true
         relink: false
         force: false
+    ~/.emacs.d:
+        path: emacs.d
+        create: true
+        relink: false
+        force: false
 
 

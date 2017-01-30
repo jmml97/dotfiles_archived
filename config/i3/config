@@ -155,7 +155,7 @@ bar {
         status_command i3status
 }
 
-bindsym $mod+b exec chromium
+bindsym $mod+b exec emacs
 exec --no-startup-id xbacklight -set 20
 exec --no-startup-id xrandr --dpi 168
 exec --no-startup-id restart

@@ -220,7 +220,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # Wallpaper
 
-exec_always feh --bg-scale ~/Imágenes/Wallpapers/w1.jpg
+exec_always feh --bg-fill ~/Imágenes/Wallpapers/w3.jpg
 
 bindsym $mod+b exec chromium
 exec --no-startup-id xbacklight -set 20
@@ -248,10 +248,15 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Exec polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# Mouse buttons
+
+bindsym button9 move workspace prev
+bindsym button8 move workspace next
+bindsym button10 exec rofi -show window -font "Input Mono 18"
