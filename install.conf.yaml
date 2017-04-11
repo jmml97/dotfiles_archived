@@ -10,5 +10,6 @@
     ~/.emacs.d/personal/custom.el : emacs.d/personal/custom.el
     ~/.emacs.d/personal/personal.el : emacs.d/personal/personal.el
     ~/.emacs.d/personal/preload/preload.el : emacs.d/personal/preload/preload.el
+    ~/.emacs.d/personal/tabbar.el : emacs.d/personal/tabbar.el
 
 
