@@ -1,5 +1,0 @@
-[user]
-	email = jmmartinluque@gmail.com
-	name = José María Martín Luque
-[credential]
-	helper = /usr/share/git/credential/libsecret/git-credential-libsecret

@@ -1,0 +1,82 @@
+" Changes the font to Iosevka 
+set guifont=Iosevka:h13
+" Changes the background color to light
+set background=light
+" Removes the scrollbar on the right 
+set guioptions-=r
+" Enhanced tab completion
+set wildmenu
+" Change vim-latex key
+"let g:Tex_Leader = 'ç'
+" Remap C-j to <space><space> for quicker navigation
+"imap <space><space> <Plug>IMAP_JumpForward
+"nmap <space><space> <Plug>IMAP_JumpForward
+
+" Avoid stupid warnings in LaTeX
+"let g:Tex_IgnoredWarnings =
+"\'Underfull'."\n".
+"\'Overfull'."\n".
+"\'specifier changed to'."\n".
+"\'You have requested'."\n".
+"\'Missing number, treated as zero.'."\n".
+"\'There were undefined references'."\n".
+"\'Latex Warning:'."\n".
+"\'Package Fancyhdr Warning'.'\fancyhead'.'option without twoside'."\n"
+"\'Package etex Warning'.'Extended allocation already in use'."\n"
+"\'LaTeX Font Warning:'.'Size substitutions with differences up'."\n"
+"\"Package Fancyhr\n"
+"\"Package etex\n"
+"\'Citation %.%# undefined'
+"let g:Tex_IgnoreLevel = 10
+
+" Spell check
+
+set spelllang=es_es
+
+" Proper line break
+set breakindent
+set wrap
+set showbreak=\ \ "
+
+" Better compile and preview PDF
+map <D-r> :w<cr><localleader>ll<localleader>lv
+imap <D-r> <ESC><D-r>
+
+"let g:Tex_TreatMacViewerAsUNIX = 0
+"let g:Tex_DefaultTargetFormat = 'pdf'
+"let g:Tex_CompileRule_pdf = 'pdflatex -synctex=1 --interaction=nonstopmode $*'
+"
+
+"let g:Tex_ViewRule_pdf = 'open -a Preview.app'
+"let g:Tex_CompileRule_pdf = "latexmk -pdflatex='pdflatex -file-line-error -synctex=1 -interaction=nonstopmode' -bibtex -pdf $*"
+"
+" Enable snipMate compatibility feature.
+let g:neosnippet#enable_snipmate_compatibility = 1
+
+" Tell Neosnippet about the other snippets
+let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets'
+
+" Plugin key-mappings.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <CR>     <Plug>(neosnippet_expand_target)
+
+" SuperTab like snippets behavior.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+"imap <expr><TAB>
+" \ pumvisible() ? "\<C-n>" :
+" \ neosnippet#expandable_or_jumpable() ?
+" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+" For conceal markers.
+if has('conceal')
+  set conceallevel=2 concealcursor=niv
+endif
+
+"Autocomplete
+
+
