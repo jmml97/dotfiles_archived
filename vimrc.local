@@ -2,6 +2,11 @@
 set guifont=Iosevka:h13
 " Changes the background color to light
 set background=light
+
+color dracula
+let g:airline_theme='dracula'
+
+set 
 " Removes the scrollbar on the right 
 set guioptions-=r
 " Enhanced tab completion
@@ -36,6 +41,7 @@ set spelllang=es_es
 " Proper line break
 set breakindent
 set wrap
+set linebreak
 set showbreak=\ \ "
 
 " Better compile and preview PDF
@@ -74,9 +80,13 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 
 " For conceal markers.
 if has('conceal')
-  set conceallevel=2 concealcursor=niv
+  set conceallevel=0 concealcursor=nv
 endif
 
-"Autocomplete
+set conceallevel=2 concealcursor=niv
+
+" Disable Rainbow
+let g:rainbow_active = 0
+
 
 

@@ -1,6 +1,7 @@
 let g:airline_powerline_fonts=1
 let g:tex_conceal = "abmmgs"
 set concealcursor = "" 
+set conceallevel = 0
 
 " Proper tex detection
 let g:tex_flavor = "latex"
@@ -31,3 +32,17 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:SuperTabCrMapping = 0
+
+" Disable LaTeX warnings
+
+let g:vimtex_quickfix_open_on_warning=0
+
+let g:vimtex_quickfix_latexlog = {
+          \ 'overfull' : 0,
+          \ 'underfull' : 0,
+        \ 'font' : 0,
+          \ 'packages' : {
+          \   'default' : 0,
+          \ },
+          \}
+
