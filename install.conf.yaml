@@ -8,6 +8,7 @@
     ~/.dotfiles: ''
     ~/.emacs.d:
     ~/.oh-my-zsh:
+    ~/.vim:
     ~/.vimrc: spf13-vim-3/.vimrc
     ~/.vimrc.before: spf13-vim-3/.vimrc.before
     ~/.vimrc.bundles: spf13-vim-3/.vimrc.bundles
