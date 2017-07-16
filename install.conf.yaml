@@ -5,7 +5,6 @@
 - clean: ['~']
 
 - link:
-    ~/.dotfiles: ''
     ~/.emacs.d:
     ~/.oh-my-zsh:
     ~/.vim:
